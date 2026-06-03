@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Saludo en main
         if: github.ref == 'refs/heads/main'
-        run: echo "Hola desde main, soy Jorge Chavez"
+        run: echo "Hola desde main, soy Jorge Chavez."
       - name: Saludo en develop
         if: github.ref == 'refs/heads/develop'
-        run: echo "Hola desde develop, soy Jorge Chavez"
+        run: echo "Hola desde develop, soy Jorge Chavez."
